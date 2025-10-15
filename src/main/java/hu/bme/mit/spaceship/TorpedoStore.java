@@ -14,7 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  private Random rng = new Random();
+  public Random rng = new Random();
 
 
   public TorpedoStore(int numberOfTorpedos){
